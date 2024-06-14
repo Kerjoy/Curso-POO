@@ -24,3 +24,4 @@ print(f"""
     """)
 
 studyng = input()
+if (studyng)
