@@ -17,11 +17,11 @@ student1 = student(name,old,name)
 
 print(f"""
      STUDENT DATA: \n\n
-     Name: {student.name} \n
-     Edad: {student.old} \n
-     Grade: {student.grade} \n
-    
+     Name: {student1.name} \n
+     Edad: {student1.old} \n
+     Grade: {student1.grade} \n
     """)
 
 studyng = input()
-if (studyng)
+if (studyng.lower == "estudyng"):
+    student1.studyng()
