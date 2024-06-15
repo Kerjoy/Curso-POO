@@ -4,8 +4,8 @@ class student:
         self.old = old
         self.grade = grade
 
-    def studyng():
-        print("studyng...")
+    def studying(self):
+        print("studying...")
 
 
 name = input("introduce your name please: ")
@@ -21,6 +21,6 @@ print(f"""
      Grade: {student1.grade} \n
     """)
 while 1:
-    studyng = input()
-    if (studyng.lower() == "studyng"):
-        student.studyng()
+    studying = input()
+    if (studying.lower() == "studying"):
+        student1.studying()
