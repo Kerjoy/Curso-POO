@@ -4,24 +4,7 @@ class student:
         self.old = old
         self.grade = grade
         
-    def studyng(self):
-        print("Estudyng...")
         
-pedro = student("MR CROC",24,100)
+Croc = student("MR CROC",24,100)
 
-name = input("introduce your name please: ")
-old = input("introduce your name old: ")
-name = input("introduce your name grade: ")
-
-student1 = student(name,old,name)
-
-print(f"""
-     STUDENT DATA: \n\n
-     Name: {student1.name} \n
-     Edad: {student1.old} \n
-     Grade: {student1.grade} \n
-    """)
-
-studyng = input()
-if (studyng.lower == "estudyng"):
-    student1.studyng()
+print (Croc.grade)
