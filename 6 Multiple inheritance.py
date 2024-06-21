@@ -11,7 +11,7 @@ class WitchHunter:
     def __init__(self,skill):
             self.skill = skill
     def show_skill(self):
-            print(f"My skill is: {self.show_skill}")
+            print(f"My skill is: {self.skill}")
         
 class MercenaryWitchHunter(People,WitchHunter):
     def __init__(self,name,age,nationality,skill,reward,company):
