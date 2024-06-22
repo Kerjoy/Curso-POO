@@ -21,7 +21,7 @@ class MercenaryWitchHunter(People,WitchHunter):
         self.company = company
     
     def show(self):
-        print(f'{self.show_skill()}')
+        return f'{super().show_skill()}'
     
 mr_salary_man = MercenaryWitchHunter("paco",22,"czech","crafting of potions",1500,"tink")
 
