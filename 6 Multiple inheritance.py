@@ -25,8 +25,9 @@ class MercenaryWitchHunter(People,WitchHunter):
         return f'{super().show_skill()}' #For calling a father class
     
     def show_name_skill(self):
-        return f'My name is {self.name} and my skill is {self.show_skill} and working on {self.company}'
+        print(f'My name is {self.name} and my skill is {self.skill} and working on {self.company}')
     
 mr_salary_man = MercenaryWitchHunter("paco",22,"czech","crafting of potions",1500,"tink")
 
 mr_salary_man.show()
+mr_salary_man.show_name_skill()
