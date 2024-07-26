@@ -5,12 +5,15 @@ le demos un metodo a un objeto se comporte diferente.
 
 las variables en python son polimorfas conocidas como polimorfismo en tiempo de ejecucion
 """
+class Animal():
+    def sonido(self):
+        pass
 
-class Cat():
+class Cat(Animal):
     def sound(self):
         return"Miau"
 
-class Dog():
+class Dog(Animal):
     def sound(self):
         return"Guau"
     
